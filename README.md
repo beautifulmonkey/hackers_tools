@@ -17,4 +17,7 @@
 	python file_op.py ~/Desktop/hello.py encode
 ```
 
-注:图片和视频加解密速度较慢, 默认不会读图片和视频进行操作, 如果要取消该选项在file_op.py 中 FILTER_LIST更改
+#### 注:
+
+	1.提供了默认的公钥和私钥, 如果需要重新生成新的密钥, 可以运行set_new_key.py
+	2.图片和视频加解密速度较慢, 默认不会读图片和视频进行操作, 如果要取消该选项在file_op.py 中 FILTER_LIST更改
