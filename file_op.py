@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+"""
+	author: yx
+	提供了默认的公钥和私钥, 如果需要重新生成新的密钥, 可以运行set_new_key.py
+"""
+
 from multiprocessing import cpu_count, Pool
 import sys
 import os
